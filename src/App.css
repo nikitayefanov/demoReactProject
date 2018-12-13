@@ -1,0 +1,13 @@
+.App {
+  min-height: calc(100vh - 4rem - 5.5rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/images/background.png");
+}
+
+.App h1 {
+  margin: 0;
+}

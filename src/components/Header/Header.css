@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e0474c;
+    height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.ItemsList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.Item {
+    margin: 0.8rem;
+}
+
+.Header a {
+    text-decoration: none;
+    color: white;
+}

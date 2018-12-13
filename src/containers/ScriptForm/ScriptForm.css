@@ -1,0 +1,56 @@
+.ScriptForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 35rem;
+    position: absolute;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #7acfd6;
+    opacity: 0.8;
+}
+
+.ScriptForm h1 {
+    margin: 0;
+}
+
+.FormItem {
+    margin: 0.5rem;
+}
+
+.FormItem textarea {
+    width: 25rem;
+    height: 18rem;
+    resize: none;
+}
+
+button.FormItem {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button.FormItem:disabled {
+    background-color: white; /* Green */
+    border: 1px solid grey;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: not-allowed;
+}
+
+

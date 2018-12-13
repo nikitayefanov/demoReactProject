@@ -1,0 +1,44 @@
+.Scripts {
+    background-color: #7acfd6;
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+    text-align: center;
+    min-width: 30%;
+}
+
+.Scripts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Element {
+    padding: 5px;
+}
+
+.CancelButton {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    WebkitOverflowScrolling: touch;
+    borderRadius: 4px;
+    outline: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.Scripts ul {
+    margin: 0;
+}
+
